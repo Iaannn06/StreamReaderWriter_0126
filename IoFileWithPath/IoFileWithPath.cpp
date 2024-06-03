@@ -15,6 +15,16 @@ int main() {
 	cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
 	while (true) {
-		
+		cout << "- ";
+		getline(cin, baris);
+		if (baris == "q") break;
+		outfile << baris << endl;
 	}
+	outfile.close();
+
+	ifstream infile;
+
+	infile.open(NamaFile + ".txt", ios::in);
+
+	cout << endl << ">= Membuka dan membaca file"
 }
