@@ -10,4 +10,6 @@ int main() {
 	cout << "Masukkan Nama file : ";
 	cin >> NamaFile;
 
+	ofstream outfile;
+
 }
