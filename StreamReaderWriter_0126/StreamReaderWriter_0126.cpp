@@ -7,7 +7,11 @@ int main() {
 	string baris;
 	ofstream outfile;
 	outfile.open("Ian.txt");
+	cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
+	while (true) {
+
+	}
 }
 
 
