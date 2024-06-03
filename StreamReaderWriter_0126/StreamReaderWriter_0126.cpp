@@ -27,8 +27,9 @@ int main() {
 		while (getline(infile, baris))
 		{
 			cout << baris << '\n';
-
 		}
+		infile.close();
+
 	}
 }
 
