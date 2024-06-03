@@ -29,8 +29,9 @@ int main() {
 			cout << baris << '\n';
 		}
 		infile.close();
-
 	}
+	else cout << "unable to open file";
+	return 0;
 }
 
 
